@@ -24,18 +24,6 @@ class Footer extends Component {
                   <a href="https://twitter.com/studiomaxio">Twitter</a>
                 </span>
               </List.Item>
-              <List.Item>
-                <span>
-                  <Icon name="discord" />
-                  <a href="https://discord.gg/UX5A8Fekqn">Discord</a>
-                </span>
-              </List.Item>
-              <List.Item>
-                <span>
-                  <Icon name="reddit alien" />
-                  <a href="">Reddit</a>
-                </span>
-              </List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={3}>
