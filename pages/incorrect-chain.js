@@ -8,7 +8,7 @@ const s = require("../settings");
 class IncorrectChain extends Component {
   async componentDidMount() {
     this._isMounted = true;
-    const cid = await web3.currentProvider.request({ method: "eth_chainId" });
+    const cid = await web3.eth.getChainId();;
     if (cid == s.REQUIRED_CHAIN_ID) {
       window.location.assign("/play");
     }
