@@ -343,15 +343,16 @@ class Play extends Component {
             </Form>
           </Grid.Row>
         </Grid>
-        <Grid style={{ paddingTop: "10px" }}>
+        <Grid>
           <Grid.Row centered>
-            <Grid.Column color="black">
+            <Grid.Column color="black" >
               <center>
                 <Form onSubmit={this.checkGame}>
                   <Form.Field>
                     <Input
                       placeholder="Game ID"
                       value={this.state.gameIDInput}
+                      style={{ paddingRight: "100px", paddingLeft:"100px" }}
                       onChange={event =>
                         this.setState({ gameIDInput: event.target.value })
                       }
@@ -459,10 +460,6 @@ class Play extends Component {
             </Grid.Row>
           </Grid>
         ) : null}
-        <Grid>
-          <Grid.Row></Grid.Row>
-          <Grid.Row></Grid.Row>
-        </Grid>
       </Layout>
     );
   }
