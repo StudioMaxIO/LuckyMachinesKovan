@@ -187,7 +187,7 @@ class Operate extends Component {
               <Header>Machine:</Header>
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row style={{ marginTop: "-28px" }}>
+          <Grid.Row style={{ marginTop: "-28px", zIndex:"9000"}}>
             <Grid.Column></Grid.Column>
             <Grid.Column>
               <strong>
@@ -197,7 +197,7 @@ class Operate extends Component {
               </strong>
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row style={{ marginTop: "-28px" }}>
+          <Grid.Row style={{ marginTop: "-20px", zIndex:"900" }}>
             <Grid.Column></Grid.Column>
             <Grid.Column width={"6"}>
               <a
@@ -292,7 +292,7 @@ class Operate extends Component {
               <p>
                 <strong>Payout:</strong>
                 <br />
-                {this.props.payout}X
+                {this.props.payout}:1
               </p>
             </Grid.Column>
           </Grid.Row>

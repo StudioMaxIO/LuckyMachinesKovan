@@ -292,7 +292,7 @@ class Play extends Component {
               <center>
                 <p>
                   Payout:
-                  <br /> {this.props.payout}X
+                  <br /> {this.props.payout}:1
                 </p>
               </center>
             </Grid.Column>
