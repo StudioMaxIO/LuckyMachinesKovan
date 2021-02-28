@@ -85,7 +85,7 @@ class Load extends Component {
               <br />
               <p>
                 <strong>Payout:</strong>
-                {this.state.machines[i][2] + "X "}
+                {this.state.machines[i][2] + ":1 "}
                 <strong>Min Bet:</strong>
                 {web3.utils.fromWei(this.state.machines[i][0], "ether") +
                   "ETH "}
@@ -107,7 +107,7 @@ class Load extends Component {
               <br />
               <p>
                 <strong>Payout:</strong>
-                {this.state.machines[i][2] + "X "}
+                {this.state.machines[i][2] + ":1 "}
                 <strong>Min Bet:</strong>
                 {web3.utils.fromWei(this.state.machines[i][0], "ether") +
                   "ETH "}
