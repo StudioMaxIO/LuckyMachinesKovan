@@ -211,6 +211,10 @@ class Play extends Component {
         summaryPlayed: gameSummary.played,
         checkGameErrorMessage: ""
       });
+      if(!gameSummary.played){
+        //set timer to recheck
+        setTimeout(this.reloadGame, 30000);
+      }
     } catch (err) {
       this.setState({ checkGameErrorMessage: err.message });
     }
